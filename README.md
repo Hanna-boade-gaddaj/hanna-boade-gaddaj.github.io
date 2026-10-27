@@ -26,4 +26,4 @@ En sangbok som webapp, med sangene fra *Haŋŋá boade gáddáj – Lávllagirjj
 
 ## Om filene
 
-Sangtekstene er skrevet av fra en skannet utgave av heftet. Alt (tekst, skrift, kode) ligger i `index.html`, uten eksterne avhengigheter. Fargene er hentet fra omslaget. Skrifttypen er Source Sans 3 (SIL Open Font License).
+Sangtekstene er skrevet av fra en skannet utgave av heftet. Alt (tekst, skrift, kode) ligger i `index.html`, uten eksterne avhengigheter. Bildet på forsiden og fargene er hentet fra omslaget. Gåvvå (bilde): Kurt Solberg. Skrifttypen er Source Sans 3 (SIL Open Font License).
