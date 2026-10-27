@@ -1,8 +1,8 @@
-// Service worker for sangboken «Hańńá boade gáddáj». Genereres av scripts/build.py, ikke rediger dist/sw.js direkte.
+// Service worker for sangboken «Haŋŋá boade gáddáj». Genereres av scripts/build.py, ikke rediger dist/sw.js direkte.
 // Versjonen endres ved hvert bygg med nytt innhold, slik at gammel cache byttes ut.
 "use strict";
 
-var CACHE = "hanna-a470b9a93b8b";
+var CACHE = "hanna-4fcb47aee5b8";
 var FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-180.png", "./icon-192.png", "./icon-512.png", "./icon-maskable-512.png"];
 
 self.addEventListener("install", function (event) {
@@ -28,7 +28,7 @@ self.addEventListener("activate", function (event) {
       .then(function () { return self.clients.matchAll({ type: "window" }); })
       .then(function (clients) {
         // Gi åpne vinduer beskjed, slik at de kan tilby å laste inn den nye versjonen.
-        clients.forEach(function (client) { client.postMessage({ type: "aktivert", versjon: "a470b9a93b8b" }); });
+        clients.forEach(function (client) { client.postMessage({ type: "aktivert", versjon: "4fcb47aee5b8" }); });
       })
   );
 });
