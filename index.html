@@ -81,7 +81,7 @@ a { color: var(--accent); }
 }
 /* Maleriet fra omslaget, med gul og rød ramme som på heftet. */
 .top .cover {
-  max-width: 452px;
+  max-width: 252px; /* bildet blir 220 px bredt på mobil */
   margin: 0 auto 20px;
   padding: 0 16px;
 }
@@ -316,7 +316,7 @@ mark { background: var(--yellow); color: var(--hit-ink); padding: 0 2px; border-
 }
 @media (min-width: 641px) {
   .top .name { font-size: 36px; padding: 32px 16px 24px; }
-  .top .cover { margin-bottom: 32px; }
+  .top .cover { max-width: 312px; margin-bottom: 32px; }
   .top .name small { font-size: 17px; }
   .song-wrap { padding-top: 32px; }
 }
@@ -882,7 +882,7 @@ mark { background: var(--yellow); color: var(--hit-ink); padding: 0 2px; border-
   // Offline-støtte. Service workeren finnes bare når appen lastes fra en nettadresse, ikke som lokal fil.
   // Siden vises fra cache, så en ny versjon blir lastet ned i bakgrunnen. Når det finnes en cache
   // med en annen versjon enn denne siden, tilbyr vi å laste inn på nytt.
-  var VERSION = "ac5cb04e26ce";
+  var VERSION = "04e7928bd1ae";
   function showUpdate() { document.getElementById("update").hidden = false; }
   function checkForUpdate() {
     caches.keys().then(function (keys) {
