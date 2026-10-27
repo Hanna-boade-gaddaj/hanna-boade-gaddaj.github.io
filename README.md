@@ -14,8 +14,6 @@ En sangbok som webapp, med sangene fra *Hańńá boade gáddáj – Lávllagirjj
 - **Direkte lenke** til en sang: https://hanna-boade-gaddaj.github.io/#17
 - **Offline:** etter første besøk kan sangboken brukes uten nett.
 
-Sang 46 («Jubmel sjivnnjedij muv») og 47 («Oamedåbddo») står på sidene 80–81, som mangler i den skannede utgaven. De er med i lista, men uten tekst.
-
 ## Bruk og installering
 
 | Enhet | Slik installerer du |
